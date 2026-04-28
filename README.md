@@ -5,6 +5,7 @@ I unfortunately did not have the time to implement everything I wanted.
 - As I noted in the damagecalculator.java, it isn't possible to do 100% accurate damage calculations for pokemon go like other pokemon games. 
 - The 'aggressive' and 'defensive' strategies are also far from ideal, because, for example, you almost never want to use a charged attack if the opponent's active pokemon is at extremely low health because most of the damage from the charged attack will be wasted, UNLESS it is the last pokemon available in the opponent's team.
 - Also, in the simulations it doesn't use any sort of logic to swap to a pokemon that better counters the current opponent pokemon. This is far from ideal.
+- I also just added, as a last detail, a little ASCII bulbasaur upon closing the program. I did not make this and it was taken from here: https://emojicombos.com/bulbasaur-ascii-art. I wanted to make it with cyndaquil but no one has made a good cyndaquil ASCII art yet.
 
 Pokemon Go Team Comp Simulator
 

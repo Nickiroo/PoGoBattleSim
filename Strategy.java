@@ -17,13 +17,13 @@ class AggressiveStrategy extends Strategy {
         }
         return false;
     }
-    
+
 }
 
 class DefensiveStrategy extends Strategy {
     private int shieldsLeft = 2;
 
-    // Burn shields on the first two incoming charged moves, then stop.
+    // Burn shields on the first two incoming charged moves, then stop
     @Override
     public boolean shouldUseShield(Pokemon defender, Move incoming) {
         if (shieldsLeft > 0) {
